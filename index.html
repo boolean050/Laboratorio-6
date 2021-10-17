@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INDEX</title>
+<!--Librerías de bootstrap-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<!--hoja de estilos-->
+<link rel="stylesheet" href="fashion_equisde.css">
+<!--Libreria de Google Fonts-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@700&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Scheherazade+New&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap" rel="stylesheet">
+<!--Librerias de JavaScript-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div class="container-fluid p-5 bg-light text-black text-center">
+        <h1> ¡ LOS VIDEOJUEGOS MAS POPULARES !</h1>
+        <p class="p1">Uno de los juegos mas populares actualmente!</p> 
+    </div> 
+    <!--Se usa el NAVBAR--> 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Inicio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="Pagina 1.html">Pagina 1: Fortnite</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Pagina 2.html">Pagina 2: Warzone</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Pagina 3.html">Pagina 3: Rocket League</a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--El significado de los videojuegos-->
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-12">
+          <h3 class="h3">¿ Qué son los videojuegos y cual es su uso  ?</h3>
+          <div class="divindiv1"> <!--separa entre el titulo y el parrafo, asi, no se juntaran los bordes-->
+            <p class="p2">Los videojuegos, son actividades entretenidas que te ayudan a desrrllar tu creatividad, al igual, es muy bueno para socializar y te ayuda a relajarte en momentos de estrés ( a menos que una persona tóxica te diga hasta lo que no xD, nah mentira), sin embargo, utilizarlo por mucho tiempo podría ser malo, asi que en esta Actividad les mostraré los top 3 videojuegos mas jugados actualmente, al igual son de los mas competitivos.</p>
+            <p class="p2">Si te gustaría ver más acerca de estos juegos xd, por favor, ve al apartado de Inicio e ingresa a cualquier página que gustes! :D </p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <!--Colocaré un corusel, que muestre las fotos de los videojuegos-->
+      <div class="container ">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://www.nvidia.com/content/dam/en-zz/Solutions/geforce/ampere/fortnite/geforce-ampere-rtx-fortnite-og-1200x630.jpg" class="d-block w-100" alt="fortnite">
+            </div>
+            <div class="carousel-item">
+              <img src="https://www.dexerto.es/wp-content/uploads/sites/3/2020/10/habra-temporada-7-de-warzone-y-modern-warfare.jpeg" class="d-block w-100" alt="Warzone">
+            </div>
+            <div class="carousel-item">
+              <img src="https://rocketleague.media.zestyio.com/rl_platform_keyart_2019.309bf22bd29c2e411e9dd8eb07575bb1.jpg" class="d-block w-100" alt="Rocket League">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <!--FIN DE ESTA PAGINA-->
+</body>
+</html>
